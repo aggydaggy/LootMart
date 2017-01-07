@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Display>
+    <SpriteSheetKey>monsters</SpriteSheetKey>
+    <SpriteSheetSize>24</SpriteSheetSize>
+    <SpriteSheetCol>8</SpriteSheetCol>
+    <SpriteSheetRow>11</SpriteSheetRow>
+    <Color>
+      <B>255</B>
+      <G>255</G>
+      <R>255</R>
+      <A>255</A>
+    </Color>
+    <Scale>2</Scale>
+    <Origin>
+      <X>12</X>
+      <Y>12</Y>
+    </Origin>
+    <SpriteEffect>None</SpriteEffect>
+    <Rotation>0</Rotation>
+    <Opacity>1</Opacity>
+    <Layer>FOREGROUND</Layer>
+  </Display>
+  <Movement>
+    <BaseVelocity>150</BaseVelocity>
+    <Velocity>150</Velocity>
+    <MovementType>AI</MovementType>
+  </Movement>
+  <Flags>
+    <ComponentFlags>MOVEMENT</ComponentFlags>
+    <ComponentFlags>DISPLAY</ComponentFlags>
+    <ComponentFlags>COLLISION</ComponentFlags>
+  </Flags>
+  <Collision>
+    <CollisionType>REACTOR</CollisionType>
+    <Solid>true</Solid>
+    <CollisionRadius>24</CollisionRadius>
+  </Collision>
+</BaseEntity>
